@@ -53,6 +53,7 @@ flutter:
     - images/Zariel.png
     - images/Blood_War.jpg
     - images/faith-mills-zariel.png
+    - images/fallen_zariel.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
 

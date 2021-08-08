@@ -1,6 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:splashscreen/splashscreen.dart';
 void main() => runApp(MyRoutes2());
 
@@ -79,7 +77,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Descent into Avernus'),
+        title: Text('Descida até Avernus'),
         backgroundColor: Colors.black,
       ),
       body: Center(
@@ -203,7 +201,7 @@ class ExtractArgumentsScreen extends StatelessWidget {
             constraints: BoxConstraints.expand(),
             decoration: BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage("images/Zariel.png"),
+                  image: AssetImage("images/fallen_zariel.png"),
                   fit: BoxFit.cover,
                 )
             ),
